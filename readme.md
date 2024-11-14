@@ -18,15 +18,21 @@ The CLI To-Do List is a command-line tool that allows users to manage their task
 
 Clone the repository using :
 
-``` git Clone https://github.com/Yashrana1010/cli-todo ```
+```
+git Clone https://github.com/Yashrana1010/cli-todo
+```
 
 Navigate to the project directory and run the following command to build the application:
 
-``` cargo build ```
+``` 
+cargo build
+```
 
 After Building the Project Run the Below Command to start the project 
 
-``` Cargo run  ```
+``` 
+Cargo run
+```
 
 
 
@@ -34,15 +40,21 @@ After Building the Project Run the Below Command to start the project
 
 To `add` the item in To-do List Run the Below Command
 
-```  cargo run -- add "buy grocery" ```
+``` 
+cargo run -- add "buy grocery"
+```
 
 After running the command you will get Output something like this 
 
-``` Task added successfully! ``` 
+``` 
+Task added successfully!
+``` 
 
 To `List` the item in To-do List Run the Below Command
 
-``` cargo run -- list ```
+``` 
+cargo run -- list
+```
 
 After running the command you will get Output something like this 
 
@@ -88,7 +100,9 @@ Pending: 2
 
 To ` Done ` the item in To-do List Run the Below Command
 
-``` cargo run -- done 1 ```
+``` 
+cargo run -- done 1
+```
 
 After running the command you will get Output something like this. You can see the checked mark will be updated and status will show completed
 
@@ -108,11 +122,15 @@ After running the command you will get Output something like this. You can see t
 
 To `remove` the item in To-do List Run the Below Command
 
-``` cargo run -- remove 4 ```
+``` 
+cargo run -- remove 4
+```
 
 After running the command you will get Output something like this 
 
-``` Task #4 removed! ``` 
+``` 
+Task #4 removed!
+``` 
 
 ## For Windows 
 
@@ -124,7 +142,9 @@ If you want to use this project in your Windows System you can download the Exe 
 
 - run the below command 
 
-  ``` ./todolist.exe -h ```
+  ```
+  ./todolist.exe -h
+  ```
 
 - You will see something like this 
 
